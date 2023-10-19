@@ -12,7 +12,7 @@ def run(x):
     
 
 songs = []
-with open('song.txt') as f:
+with open('songs.txt') as f:
     for line in f:
        songs.append(line)
 
